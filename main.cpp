@@ -72,9 +72,9 @@ public:
         }
       }
       file.close();
-      std::cout << "Fraktal zapisany do pliku binarnego." << std::endl;
+      std::cout << "The fraktal war written to the filee" << std::endl;
     } else {
-      std::cout << "Nie można otworzyć pliku." << std::endl;
+      std::cout << "Can not open file" << std::endl;
     }
   }
 };
